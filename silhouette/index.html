@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style type="text/css">
+            body {
+                margin: 10px auto;
+                max-width: 600px;
+                font-size: 18px;
+                color: #333;
+                padding: 10px;
+            }
+            
+            h1, h2, h3 {
+                line-height:1.2;
+            }
+            </style>
+    </head>
+    <body>
+        <h1>Super awesome terrain height map silhouette generator</h1>
+        <p>
+        This is a bird's eye view of a heightmap (white is higher).<br>
+        Move the mouse somewhere to view from a different location.<br>
+        The light-blue graph is the silhouette.<br>
+        The green dots are the highest terrain points which form the silhouette.<br>
+        The gray lines are the rays that sample the terrain to find the high points.<br>
+        </p>
+        <canvas id="myCanvas" width="1024" height="1024"></canvas>
+        <script src="main.js"></script>
+    </body>
+</html>
